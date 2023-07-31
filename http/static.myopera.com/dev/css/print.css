@@ -1,0 +1,15 @@
+html,body,section#content,section.main,article { width: 100%; max-width: none; min-height: 100%; height: 100%; }
+body { width: 98%; padding: 1%;}
+body:before { display: block; float: right; content: url('../img/devo-small-grey.png'); clear: none; margin-bottom: -180px;}
+article > h1:first-child { clear: both; width: 80%; margin: -25px 0 10px 0; }
+.info, .note { background-color: #f6f6f6 !important; }
+.print { display: block; }
+.author { font-size: 1em !important; font-weight: bold; font-style: oblique; color: #555 !important;}
+section.main { float: left !important; }
+header, #comments, aside, footer, #author-info > a { display: none; }
+body { font: 12pt/1.8 Georgia, "Times New Roman", Times, serif; }
+article a:after { font-size: 80%; content: ' (' attr(href) ')'; color: #000; border-bottom: none !important; }
+article a { text-decoration: none !important; color: #555 !important; }
+h1 a:after, h2 a:after { content: none; }
+#author-info > p { margin: 0 !important; }
+#license > a:after { display: none; }
